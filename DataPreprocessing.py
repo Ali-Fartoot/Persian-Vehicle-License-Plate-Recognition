@@ -3,10 +3,11 @@ import cv2
 from tensorflow.keras.preprocessing.image import  load_img,img_to_array
 from Verify import  trainData , imageFile
 import numpy as np
+import pandas as pd
+from XMLToCSV import labelsDict
 
 
-# Data preprocessing
-labels = trainData.iloc[:,1:].values
+
 
 
 data = []

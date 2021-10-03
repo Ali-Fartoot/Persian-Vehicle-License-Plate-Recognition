@@ -4,6 +4,15 @@ import matplotlib.pyplot as plt
 import os
 import cv2
 import xml.etree.ElementTree as xet
+from XMLToCSV import labelsDict
+
+# Make Dataset
+trainData = pd.DataFrame(labelsDict)
+trainData.to_csv('Labels.csv',index=False)
+
+
+# Data preprocessing
+labels = trainData.iloc[:,1:].values
 
 
 # Return address of jpeg files from each xml file

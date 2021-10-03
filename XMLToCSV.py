@@ -23,6 +23,4 @@ for filename in XML_PATH:
     labelsDict['ymin'].append(ymin)
     labelsDict['ymax'].append(ymax)
 
-# Make Dataset
-trainData = pd.DataFrame(labelsDict)
-trainData.to_csv('Labels.csv',index=False)
+

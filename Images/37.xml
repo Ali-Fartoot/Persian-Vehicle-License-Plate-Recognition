@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Images</folder>
+	<filename>37.jpg</filename>
+	<path>D:\ML Projects\Object Detection + RestnetAPI - DL\Images\37.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>257</xmin>
+			<ymin>333</ymin>
+			<xmax>474</xmax>
+			<ymax>407</ymax>
+		</bndbox>
+	</object>
+</annotation>
